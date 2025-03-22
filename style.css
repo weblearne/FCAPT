@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: lightgreen;
+}
+.container{
+    margin-top: 40px;
+}
+h3{
+    font-size: 30px;
+    font-family: arial black;
+}
+.heading{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: arial black;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+#gender{
+    height: 40px;
+    width: 210px;
+    border-radius: 10px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;  
+    border: none;
+    background-color: crimson;
+    color: #ffffff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: #000000;
+}
+.a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.gmail:valid{
+    border-color: #00ff00;
+}
