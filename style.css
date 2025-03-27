@@ -1,68 +1,79 @@
-*{
-  /*  margin: 0px;
-    padding: 0px;
-    */
-}
-
 body{
-    text-align: center;
-    background-image: url('bg2.JPG');
-  
+   text-align: center;
+   
+    background-color: lightgreen;
+    
+}
+.container{
+    margin-top: 40px;
+}
+h3{
+    font-size: 30px;
+    font-family: arial black;
 }
 .heading{
+    margin-top: 30px;
     font-size: 20px;
     font-family: arial black;
-    color: white;
-    
 }
-.see{
-    font-family: arial black;
-    font-size: 30px;
-    color: white;
 
-}
 input{
-    width: 200px;
     height: 30px;
-    border-radius: 15px;
-}
-.bee{
-    color: white;
-    background-color: crimson;
-    width: 80px;
-    height: 40px;
-    text-align: center;
-    border-radius: 15px;
-    cursor: pointer;
-    border: none;
-    
-    
-}
-.cee{
     width: 200px;
-    height: 40px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
-   
+#gender{
+    height: 40px;
+    width: 210px;
+    border-radius: 10px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;  
+    border: none;
+    background-color: crimson;
+    color: #ffffff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: #000000;
+}
 .a{
     text-decoration: none;
     color: crimson;
 }
-.login_container{
-    margin-top: 60px;
-    
 
-} 
-.bee:hover{
-    background-color: black;
+.gmail:valid{
+    border-color: #00ff00;
+}
+.login-container{
+    margin-top: 60px;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.link:hover{
+    background-color: white;
+    color: #000000;
+}
+.voting-class{
+    text-decoration: none;
+    color: #000000;
+}
+h3{
     color: #000000;
 }
 p{
-    color: white;
-}
+    color: #000000;
+} 
 img{
     width: 150px;
     height: 150px;
 }
-
-
+p:hover{
+    color: crimson;
+    
+}
